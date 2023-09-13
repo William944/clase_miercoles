@@ -1,0 +1,28 @@
+/*importacion de tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+/*selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+/*selector etiqueta*/
+samp{
+    color: cyan;
+}
+/*selector por id*/
+#option_one, #option_tree{
+    font-weight: 900;
+    background-color: aquamarine;
+    margin : 20px;
+}
+/*selector por clase*/
+.options_groups{
+    background-color: rgb(0, 0, 0);
+    
+}
+/*selector por atributo*/
+[disabled]{
+    background-color: blue;
+}
